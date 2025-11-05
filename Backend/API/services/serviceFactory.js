@@ -1,5 +1,3 @@
-// Factory para criação de services por entidade
-
 const Feira = require("../models/feira");
 const Feirante = require("../models/feirante");
 const Estande = require("../models/estande");

@@ -7,7 +7,6 @@ const produtoService = ServiceFactory.createService("Produto");
 
 router.use(authMiddleware);
 
-// CRUD de produtos
 router.post("/", async (req, res, next) => {
   try {
     const created = await produtoService.create(req.body);

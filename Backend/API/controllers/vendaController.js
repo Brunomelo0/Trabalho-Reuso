@@ -1,6 +1,3 @@
-// Controller da entidade Venda (refatorado)
-// Usa o padrão Facade para operações compostas (venda + itens + estoque)
-
 const AppFacade = require("../services/appFacade");
 
 exports.createVenda = async (req, res, next) => {

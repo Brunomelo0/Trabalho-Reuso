@@ -1,5 +1,3 @@
-// Controller da entidade Feirante (refatorado)
-
 const ServiceFactory = require("../services/serviceFactory");
 const feiranteService = ServiceFactory.createService("Feirante");
 

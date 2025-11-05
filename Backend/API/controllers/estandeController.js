@@ -1,6 +1,3 @@
-// Controller da entidade Estande (refatorado)
-// Usa ServiceFactory com BaseService (Template Method)
-
 const ServiceFactory = require("../services/serviceFactory");
 const estandeService = ServiceFactory.createService("Estande");
 

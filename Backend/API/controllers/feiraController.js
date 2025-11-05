@@ -1,6 +1,3 @@
-// Controller da entidade Feira (refatorado)
-// Agora utiliza o padrão Factory + Template Method (BaseService)
-
 const ServiceFactory = require("../services/serviceFactory");
 const feiraService = ServiceFactory.createService("Feira");
 

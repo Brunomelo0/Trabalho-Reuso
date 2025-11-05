@@ -2,7 +2,6 @@ const EventEmitter = require("events");
 
 const notifier = new EventEmitter();
 
-// Escuta eventos importantes do sistema
 notifier.on("vendaCreated", (data) => {
   console.log(`[Notifier] Nova venda criada! ID: ${data.venda_id}`);
 });

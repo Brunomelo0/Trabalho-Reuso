@@ -1,4 +1,3 @@
-// BaseService - define o fluxo CRUD padrão com hooks opcionais
 class BaseService {
   constructor(model) {
     if (!model) throw new Error("Model é obrigatório no service");
